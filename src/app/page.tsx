@@ -1,12 +1,12 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
-      <h1>
+    <div className="flex flex-col items-center justify-center h-screen">
+      <h1 className="font-bold text-4xl">
         Hello World !
       </h1>
-      <button onClick={() => window.location.href = '/login'}>Click HERE !</button>
+      <Button><a href="/login">Click Here!</a></Button>
     </div>
   );
 }
