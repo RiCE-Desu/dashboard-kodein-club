@@ -6,6 +6,7 @@ export default function Home() {
       <h1>
         Hello World !
       </h1>
+      <button onClick={() => window.location.href = '/login'}>Click HERE !</button>
     </div>
   );
 }
